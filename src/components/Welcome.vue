@@ -2,7 +2,7 @@
   <div>
     Welcome <span style="color: lightpink">{{githubUserName}}</span>!
     <img :src="avatar_url" alt="My Github Avatar">
-    <a :href="html_url">My Html Url</a>
+    <a :href="html_url">My Github Home page</a>
   </div>
 </template>
 <script>

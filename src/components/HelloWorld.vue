@@ -16,7 +16,7 @@ export default {
   },
   methods: {
     generateLoginToGithubLink () {
-      return `https://github.com/login/oauth/authorize?client_id=${this.clientId}&redirect_uri=${this.redirectUri}`
+      return `https://github.com/login/oauth/authorize?client_id=${this.clientId}&redirect_uri=${this.redirectUri}&login=FelicityAmiao`
     }
   }
 }
